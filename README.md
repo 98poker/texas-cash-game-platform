@@ -38,7 +38,22 @@ A scalable real-time poker cash game platform designed for multiplayer systems a
 - ✅ **多端支持**  
   - 通过 HTTP / WebSocket 提供统一 API，可为多平台提供游戏服务  
 - ✅ **可扩展性**  
-  - 模块化设计，支持 SNG / MTT、短牌、AOF 等新玩法扩展  
+  - 模块化设计，支持 SNG / MTT、短牌、AOF 等新玩法扩展
+ 
+## 一、项目定位（Project Positioning）
+
+本仓库 `98poker/texas‑cash‑game‑platform` 是：  
+- 德州现金桌平台的核心后端服务  
+- 支持多桌现金游戏、代理模式  
+- 适用于：  
+  - 本地/区域德州平台  
+  - 俱乐部运营方  
+  - Web / APP / 小程序平台接入  
+
+This repo is a **Texas Hold'em cash game backend engine** for:  
+- Multi-table cash games  
+-  agent systems  
+- Integration with Web / APP / Mini‑apps.
 ## 技术架构（Tech Stack）
 
 - 服务端：`C++ / 
@@ -71,7 +86,12 @@ A scalable real-time poker cash game platform designed for multiplayer systems a
 | 产品授权 | 一次性买断全端产品，自主部署运营 | 有技术团队者 |
 | 联合运营 | 共同投资，按股份比例分红 | 有资金且希望深度合作者 |
 | 源码授权 | 一次性买断全端源码，自主部署运营 | 有技术团队者 |
----
+- 本仓库可作为：  
+  - 本地/区域平台现金桌后端  
+  - 代理模式平台后端  
+- 合作模式（98poker 推荐）：  
+  - **区域代理**：你运营玩家，我们提供游戏与技术，按流水分润  
+  - **产品/源码授权**：一次性获取全端源码，可二次开发，自主运营  
 
 ## 📌 Requirements / 合作要求
 
@@ -81,7 +101,7 @@ A scalable real-time poker cash game platform designed for multiplayer systems a
   *or / 或*
 - 启动资金 【请填写金额】
 
----
+  
 
 ## 💰 Revenue Model / 收益模型（示例）
 
