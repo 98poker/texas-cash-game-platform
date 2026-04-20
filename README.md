@@ -1,6 +1,5 @@
-# TTpoker – Texas Hold'em Cash Game Tables  
-# TTpoker – 德州扑克现金桌
-
+# Texas Hold'em Cash Game Tables |Texas Cash Game Platform|德州扑克现金桌平台|德州扑克现金桌
+> 一个德州扑克现金桌平台系统的后端引擎，支持多桌现金游戏、代理模式，可接入 Web / H5 / APP / 小程序等多端。 
 > Professional-grade Texas Hold'em cash game platform  
 > 专业级德州扑克现金桌平台
 
@@ -26,7 +25,34 @@
 | 防作弊系统 | Anti-cheat system |
 | 24小时运维支持 | 24/7 technical support |
 
+## 项目亮点（Highlights）
+
+- ✅ **多桌现金游戏**  
+  - 支持 6~9 人一桌现金桌，自动配桌、自动结算  
+  - 支持多桌并行、多盲注、多底池结构  
+- ✅ **俱乐部与代理解**   
+  - 代理解/分润模型，支持多层级代理解结构  
+- ✅ **安全与风控**  
+  - 内置防作弊结构，可对接外部风控系统  
+- ✅ **多端支持**  
+  - 通过 HTTP / WebSocket 提供统一 API，可为多平台提供游戏服务  
+- ✅ **可扩展性**  
+  - 模块化设计，支持 SNG / MTT、短牌、AOF 等新玩法扩展  
+## 技术架构（Tech Stack）
+
+- 服务端：`C++ / 
+- 通信协议：`WebSocket / TCP / HTTP API`  
+- 依赖数据库：`MySQL / Redis`（按你实际填写）  
+- 适用端：Web（H5）、APP（Android / iOS）、小程序  
+
 ---
+
+## 功能模块说明（Function Modules）
+
+- `core/`：牌局引擎、手牌评估、规则校验  
+- `cash-tables/`：现金桌、牌局状态机、底池管理、自动结算    
+- `agent/`：代理解分润、代理解报表  
+- `api/`：对外接口，可接入多端平台
 
 ### 🌍 Multi-Language / 多语言支持
 
@@ -66,14 +92,6 @@
 
 ---
 
-## 🔐 Proof of Credibility / 可信度证明
-
-| 类型 | 链接/方式 |
-| :--- | :--- |
-| 在线试玩（现金桌） | 【填写 Demo 链接】 |
-| 软件著作权证书 | 【填写截图链接】 |
-| 服务器稳定性报告 | 【填写 PDF 链接】 |
-| 技术架构说明 | 【填写文档链接】 |
 
 ---
 
@@ -82,7 +100,7 @@
 - **Telegram**: @lovepokers
 - **合作邮箱**: libaishi62@gmail.com
 
-> ⚠️ 首次联系请备注：**合作模式 + 所在地区**  
+> 首次联系请备注：合作模式（区域代理 / 产品授权 / 联合运营 / 源码）+ 所在地区  
 > *First contact must include: partnership model + your region*
 
 ## 产品截图
