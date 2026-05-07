@@ -1,7 +1,7 @@
 A scalable real-time poker cash game platform designed for multiplayer systems and continuous gameplay.
 # Texas Hold'em Cash Game Tables |Texas Cash Game Platform|德州扑克现金桌平台|德州扑克现金桌
 > 本仓库是 98poker 德州现金平台的核心后端，可作为：  
-> 本地平台、俱代理、Web / APP / 小程序的统一“现金桌 ”后端。
+> 本地平台、俱代理、Web / APP / 小程序的统一“现金桌 ”后端
 > 
 > 一个德州扑克现金桌平台系统的后端引擎，支持多桌现金游戏、代理模式，可接入 Web / H5 / APP / 小程序等多端。 
 > Professional-grade Texas Hold'em cash game platform  
